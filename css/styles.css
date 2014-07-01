@@ -1,0 +1,97 @@
+
+/* 
+==========================================================================
+Global General Settings
+========================================================================== 
+*/
+body {
+	-webkit-font-smoothing: antialiased;
+}
+/* 
+==========================================================================
+Header & Nav Settings
+========================================================================== 
+*/
+
+.top-bar, .contain-to-grid {
+	background-color: #192026;
+	height:	100px;
+}
+.top-bar-section ul li {
+	background: none;
+}
+.top-bar-section ul li>a {
+	font-weight: 700;
+	font-style: normal;
+}
+.top-bar-section>ul>.divider, .top-bar-section>ul>[role="separator"] {
+	border-right: solid 1px #192026;
+}
+.contain-to-grid .top-bar {
+	padding-top: 28px;
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #f47527;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background: none;
+	color: #fff;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: #f47527;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	padding: 0 10px;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: none;
+}
+.top-bar-section ul {
+	background: none;
+}
+.top-bar-section ul li>a {
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.tab-bar {
+	background-color: black;
+}
+
+/* 
+==========================================================================
+Footer Settings
+========================================================================== 
+*/
+.footer {
+	background: #30373e;
+	height: 250px;
+	color: #fff;
+	padding-top: 40px;
+}
+
+.footer a:link, .footer a:visited {
+	color: #fff;
+}
+.footer a:hover {
+	color: #f47527;
+}
+.social li {
+	display: inline;
+	margin-right: 10px;
+}
+ul.social {
+	margin-left: 0px;
+}
+.social a:link {
+	opacity:0.7;
+}
+.social a:hover {
+	opacity:1;
+}
+.footer p {
+	border-top: 6px solid #56606a;
+	margin-top: 20px;
+	padding-top: 20px;
+}
